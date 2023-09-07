@@ -14,6 +14,7 @@
 		F5C0038F2AA9D05F00DB295E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C0038E2AA9D05F00DB295E /* EditView.swift */; };
 		F5C003912AA9D23F00DB295E /* RenovationProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003902AA9D23F00DB295E /* RenovationProjectsView.swift */; };
 		F5C003932AA9D4E200DB295E /* RanovationProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003922AA9D4E200DB295E /* RanovationProjectRow.swift */; };
+		F5C003972AA9DBF800DB295E /* RenovationProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003962AA9DBF800DB295E /* RenovationProject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		F5C0038E2AA9D05F00DB295E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 		F5C003902AA9D23F00DB295E /* RenovationProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationProjectsView.swift; sourceTree = "<group>"; };
 		F5C003922AA9D4E200DB295E /* RanovationProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanovationProjectRow.swift; sourceTree = "<group>"; };
+		F5C003952AA9DB0C00DB295E /* projects.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = projects.geojson; sourceTree = "<group>"; };
+		F5C003962AA9DBF800DB295E /* RenovationProject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationProject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		F5C0037F2AA879AA00DB295E /* Renotracker */ = {
 			isa = PBXGroup;
 			children = (
+				F5C003942AA9DA2F00DB295E /* Models */,
 				F5C003802AA879AA00DB295E /* RenotrackerApp.swift */,
 				F5C003822AA879AA00DB295E /* DetailView.swift */,
 				F5C003842AA879AE00DB295E /* Assets.xcassets */,
@@ -74,6 +78,15 @@
 				F5C003872AA879AE00DB295E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5C003942AA9DA2F00DB295E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5C003952AA9DB0C00DB295E /* projects.geojson */,
+				F5C003962AA9DBF800DB295E /* RenovationProject.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +161,7 @@
 			files = (
 				F5C003832AA879AA00DB295E /* DetailView.swift in Sources */,
 				F5C003912AA9D23F00DB295E /* RenovationProjectsView.swift in Sources */,
+				F5C003972AA9DBF800DB295E /* RenovationProject.swift in Sources */,
 				F5C003932AA9D4E200DB295E /* RanovationProjectRow.swift in Sources */,
 				F5C003812AA879AA00DB295E /* RenotrackerApp.swift in Sources */,
 				F5C0038F2AA9D05F00DB295E /* EditView.swift in Sources */,
