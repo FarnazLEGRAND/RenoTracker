@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		F5C003812AA879AA00DB295E /* RenotrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003802AA879AA00DB295E /* RenotrackerApp.swift */; };
-		F5C003832AA879AA00DB295E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003822AA879AA00DB295E /* ContentView.swift */; };
+		F5C003832AA879AA00DB295E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003822AA879AA00DB295E /* DetailView.swift */; };
 		F5C003852AA879AE00DB295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C003842AA879AE00DB295E /* Assets.xcassets */; };
 		F5C003882AA879AE00DB295E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C003872AA879AE00DB295E /* Preview Assets.xcassets */; };
+		F5C0038F2AA9D05F00DB295E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C0038E2AA9D05F00DB295E /* EditView.swift */; };
+		F5C003912AA9D23F00DB295E /* RenovationProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003902AA9D23F00DB295E /* RenovationProjectsView.swift */; };
+		F5C003932AA9D4E200DB295E /* RanovationProjectRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003922AA9D4E200DB295E /* RanovationProjectRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5C0037D2AA879AA00DB295E /* Renotracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renotracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C003802AA879AA00DB295E /* RenotrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenotrackerApp.swift; sourceTree = "<group>"; };
-		F5C003822AA879AA00DB295E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F5C003822AA879AA00DB295E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		F5C003842AA879AE00DB295E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5C003872AA879AE00DB295E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5C0038E2AA9D05F00DB295E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		F5C003902AA9D23F00DB295E /* RenovationProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationProjectsView.swift; sourceTree = "<group>"; };
+		F5C003922AA9D4E200DB295E /* RanovationProjectRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RanovationProjectRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				F5C003802AA879AA00DB295E /* RenotrackerApp.swift */,
-				F5C003822AA879AA00DB295E /* ContentView.swift */,
+				F5C003822AA879AA00DB295E /* DetailView.swift */,
 				F5C003842AA879AE00DB295E /* Assets.xcassets */,
 				F5C003862AA879AE00DB295E /* Preview Content */,
+				F5C0038E2AA9D05F00DB295E /* EditView.swift */,
+				F5C003902AA9D23F00DB295E /* RenovationProjectsView.swift */,
+				F5C003922AA9D4E200DB295E /* RanovationProjectRow.swift */,
 			);
 			path = Renotracker;
 			sourceTree = "<group>";
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C003832AA879AA00DB295E /* ContentView.swift in Sources */,
+				F5C003832AA879AA00DB295E /* DetailView.swift in Sources */,
+				F5C003912AA9D23F00DB295E /* RenovationProjectsView.swift in Sources */,
+				F5C003932AA9D4E200DB295E /* RanovationProjectRow.swift in Sources */,
 				F5C003812AA879AA00DB295E /* RenotrackerApp.swift in Sources */,
+				F5C0038F2AA9D05F00DB295E /* EditView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
