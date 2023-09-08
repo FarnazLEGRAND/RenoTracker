@@ -37,6 +37,13 @@ struct InspectionLogEntry {
     var entryDate: Date
     var details: String
 }
+
+enum BudgetStatus: String {
+    case onBudget = "On Budget"
+    case overBudget = "Over Budget"
+}
+
+
 //la suite du RenovationProject (structure)in ra dorost cardim bebinim project car mikone ya na
 extension RenovationProject {
     static var testData: [RenovationProject]
