@@ -7,11 +7,12 @@
 
 import SwiftUI
 
+
 @main
-struct RenotrackerApp: App {
+struct RenoTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            RenovationProjectsView()
+            RenovationProjectsView(renovationProjects: RenovationProject.testData)
         }
     }
 }

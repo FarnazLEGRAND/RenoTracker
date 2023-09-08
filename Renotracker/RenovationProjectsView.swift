@@ -4,33 +4,28 @@
 //
 //  Created by Farnaz Rismanchian on 07/09/2023.
 //
-//cela notre main pour demarer le system
+//cela notre main pour demarer le system :dans le main
+//liste element hame liste row tek doune project
 import SwiftUI
 
 struct RenovationProjectsView: View {
+    
+    var renovationProjects: [RenovationProject]
+    
     var body: some View {
         NavigationView{
             List{
                 NavigationLink(
-                    destination: DetailView(),
-                    label: {
-                        //                        Text ("Reno 1" )
-                        RanovationProjectRow()
-                    }
-                )
-                
-                RanovationProjectRow()
-                RanovationProjectRow()
-                RanovationProjectRow()
-            
+                    destination: DetailView(renovationProject: renovationProjects[0]),
+                    label: { RenovationProjectRow(renovationProject: renovationProjects[0]) })
             }
-            .navigationTitle("Homme")
+            .navigationTitle("Home")
         }
     }
 }
-    
-    struct RenovationProjectsView_Previews: PreviewProvider {
-        static var previews: some View {
-            RenovationProjectsView()
-        }
+
+struct RenovationProjectsView_Previews: PreviewProvider {
+    static var previews: some View {
+        RenovationProjectsView(renovationProjects: RenovationProject.testData)
     }
+}

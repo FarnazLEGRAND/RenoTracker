@@ -12,7 +12,7 @@ struct RenovationProject {
     var budgetAmountAllocated: Double = 0.0
     var budgetSpentToDate: Double = 0.0
     var inspectionLog: [InspectionLogEntry] = []
-    
+//    enumeration: il ya 3-4 choix a faire limiter restection de chois meme si c'est chaine de caracter
     enum WorkQualityRating: String {
         case na = "N/A"
         case poor = "Poor"
@@ -37,7 +37,7 @@ struct InspectionLogEntry {
     var entryDate: Date
     var details: String
 }
-
+//la suite du RenovationProject (structure)in ra dorost cardim bebinim project car mikone ya na
 extension RenovationProject {
     static var testData: [RenovationProject]
     {

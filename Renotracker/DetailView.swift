@@ -5,25 +5,31 @@
 //  Created by Farnaz Rismanchian on 06/09/2023.
 //
 
+
 import SwiftUI
 
 struct DetailView: View {
+    
+    var renovationProject: RenovationProject
+    
     var body: some View {
-        VStack(alignment: .leading){
-            //            mark:header section
+        VStack(alignment: .leading) {
+            
             Header()
-            // MARK: Status section
+            
             WorkQuality()
-                      
-                      Divider()
-                      
-                      // MARK: Punch List section
+            
+            Divider()
+            
             PunchList()
-                      // MARK: Budget section
+            
+            Divider()
+            
             Budget()
+            
             Spacer()
-                  }
-        .padding()
+        }
+        .padding(.all)
         .navigationTitle("Front Lobby")
         .sheet(isPresented: .constant(false), content: {
             EditView()
@@ -31,21 +37,20 @@ struct DetailView: View {
     }
 }
 
-
-//contene VIEUW
 struct DetailView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailView()
-        DetailView()
+        DetailView(renovationProject: RenovationProject.testData[0])
+        DetailView(renovationProject: RenovationProject.testData[0])
             .preferredColorScheme(.dark)
     }
 }
-//            mark:header section
+
+// MARK: Header Section
 struct Header: View {
     var body: some View {
         VStack(alignment: .leading){
-//            Text("Front Lobby")
-//                .font(.largeTitle)
+            /*Text("Front Lobby")
+                .font(.largeTitle)*/
             Image("front-lobby")
                 .resizable()
                 .scaledToFit()

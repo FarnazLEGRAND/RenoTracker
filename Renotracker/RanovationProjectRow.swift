@@ -4,14 +4,16 @@
 //
 //  Created by Farnaz Rismanchian on 07/09/2023.
 //
-
+//simple element
 import SwiftUI
 
-struct RanovationProjectRow: View {
+struct RenovationProjectRow: View {
+    var renovationProject: RenovationProject
+    
     var body: some View {
         VStack{
             HStack(alignment: .top){
-                Image("front-lobby")
+                Image(renovationProject.imageName)
                     .resizable()
                     .frame(width: 100, height: 100)
                     .aspectRatio(contentMode: .fill)
@@ -30,12 +32,12 @@ struct RanovationProjectRow: View {
                 }
             }
             Spacer()
-        }.padding(.trailing)
+        }
     }
 }
 
-struct RanovationProjectRow_Previews: PreviewProvider {
+struct RenovationProjectRow_Previews: PreviewProvider {
     static var previews: some View {
-        RanovationProjectRow()
+        RenovationProjectRow(renovationProject: RenovationProject.testData[0])
     }
 }
