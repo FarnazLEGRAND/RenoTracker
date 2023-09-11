@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F55202CA2AAB0D29009752A5 /* RenovationProject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55202C92AAB0D29009752A5 /* RenovationProject+.swift */; };
+		F55202CC2AAB21FB009752A5 /* PunchListItem+SwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55202CB2AAB21FB009752A5 /* PunchListItem+SwiftUI.swift */; };
+		F55202CE2AAB2368009752A5 /* RenovationProjectDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55202CD2AAB2368009752A5 /* RenovationProjectDataManager.swift */; };
 		F5C003812AA879AA00DB295E /* RenotrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003802AA879AA00DB295E /* RenotrackerApp.swift */; };
 		F5C003832AA879AA00DB295E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C003822AA879AA00DB295E /* DetailView.swift */; };
 		F5C003852AA879AE00DB295E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5C003842AA879AE00DB295E /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		F55202C92AAB0D29009752A5 /* RenovationProject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RenovationProject+.swift"; sourceTree = "<group>"; };
+		F55202CB2AAB21FB009752A5 /* PunchListItem+SwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PunchListItem+SwiftUI.swift"; sourceTree = "<group>"; };
+		F55202CD2AAB2368009752A5 /* RenovationProjectDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenovationProjectDataManager.swift; sourceTree = "<group>"; };
 		F5C0037D2AA879AA00DB295E /* Renotracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renotracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C003802AA879AA00DB295E /* RenotrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenotrackerApp.swift; sourceTree = "<group>"; };
 		F5C003822AA879AA00DB295E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 				F5C003952AA9DB0C00DB295E /* projects.geojson */,
 				F5C003962AA9DBF800DB295E /* RenovationProject.swift */,
 				F55202C92AAB0D29009752A5 /* RenovationProject+.swift */,
+				F55202CB2AAB21FB009752A5 /* PunchListItem+SwiftUI.swift */,
+				F55202CD2AAB2368009752A5 /* RenovationProjectDataManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,9 +170,11 @@
 			files = (
 				F5C003832AA879AA00DB295E /* DetailView.swift in Sources */,
 				F5C003912AA9D23F00DB295E /* RenovationProjectsView.swift in Sources */,
+				F55202CE2AAB2368009752A5 /* RenovationProjectDataManager.swift in Sources */,
 				F5C003972AA9DBF800DB295E /* RenovationProject.swift in Sources */,
 				F5C003932AA9D4E200DB295E /* RanovationProjectRow.swift in Sources */,
 				F5C003812AA879AA00DB295E /* RenotrackerApp.swift in Sources */,
+				F55202CC2AAB21FB009752A5 /* PunchListItem+SwiftUI.swift in Sources */,
 				F5C0038F2AA9D05F00DB295E /* EditView.swift in Sources */,
 				F55202CA2AAB0D29009752A5 /* RenovationProject+.swift in Sources */,
 			);
